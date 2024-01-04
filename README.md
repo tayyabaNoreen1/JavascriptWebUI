@@ -1,2 +1,3 @@
 # JavascriptWebUI
-Web test automation using jacvascript
+
+Web test automation using javascript.
