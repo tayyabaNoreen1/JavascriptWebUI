@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const favoriteCookies = [
+        'chocolate chip',
+        'lotus',
+        'party',
+        1,
+        'flap jack',
+      ];
+      favoriteCookies.push('candy');
+      let cookie = favoriteCookies.pop();
+      console.log(favoriteCookies);
+      console.log("I am so sad because I'm gone - " + cookie);
+
+      console.log('My most favorite is: ' + favoriteCookies[1]);
+
+      let fav = 2;
+      console.log(favoriteCookies[fav]);
+
+      console.log('My most favorite is: ' + favoriteCookies[5]); //undefined
+
+      console.log('Array length = ' + favoriteCookies.length);
+
+      console.log(
+        'Last element of array: ' + favoriteCookies[favoriteCookies.length - 1]
+      );
+    </script>
+  </body>
+</html>
