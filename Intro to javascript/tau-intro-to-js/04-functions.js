@@ -17,6 +17,6 @@ console.log(bigProduct);
 
 setTimeout(function () {
   console.log('Hey! You rock!!');
-}, 1000);
+}, 1000);   //Anonymous function dont have name and callback is a function that can be used as input to other function
 
-setTimeout(() => console.log('Hey! You rock!!'), 2000);
+setTimeout(() => console.log('Hey! You rock!!'), 2000); //Single line arrow function does not need paranthesis and return keyword
