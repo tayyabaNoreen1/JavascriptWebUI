@@ -14,10 +14,15 @@
         1,
         'flap jack',
       ];
-      favoriteCookies.push('candy');
-      let cookie = favoriteCookies.pop();
-      console.log(favoriteCookies);
-      console.log("I am so sad because I'm gone - " + cookie);
+      console.log(favoriteCookies);  //printing array
+      favoriteCookies.push('candy'); //adding one more element
+      console.log(favoriteCookies);  //printing array after adding an element
+      console.log(
+        'Last element of array: ' + favoriteCookies[favoriteCookies.length - 1]
+      ) 
+      let cookie = favoriteCookies.pop();  //removing last element of array
+      console.log(favoriteCookies); //printing updated array
+      console.log("I am so sad because I'm gone - " + cookie); //printing removed element
 
       console.log('My most favorite is: ' + favoriteCookies[1]);
 

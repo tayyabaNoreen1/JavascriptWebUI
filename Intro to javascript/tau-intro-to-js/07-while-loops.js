@@ -7,7 +7,7 @@ let userGuess = '';
 
 // alert('Login Successfull.');
 
-let x = 5;
+let x = 3;
 let fact = 1;
 do {
   fact = fact * x;

@@ -9,8 +9,8 @@ const cookie = {
 console.log(cookie);
 console.log(cookie.name);
 cookie.eatCookie();
-cookie.name = 'party biscuit';
-cookie.isGlutenFree = true;
+// cookie.name = 'party biscuit';
+// cookie.isGlutenFree = true;
 console.log(cookie);
 
 console.log(cookie['+yummy']);

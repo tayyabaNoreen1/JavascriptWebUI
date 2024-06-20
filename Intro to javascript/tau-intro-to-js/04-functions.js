@@ -19,4 +19,4 @@ setTimeout(function () {
   console.log('Hey! You rock!!');
 }, 1000);
 
-setTimeout(() => console.log('Hey! You rock!!'), 1000);
+setTimeout(() => console.log('Hey! You rock!!'), 2000);
